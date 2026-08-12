@@ -1,19 +1,12 @@
-[
-{
-  "modid": "actuallyadditions",
-  "name": "Actually Additions V2 Coffee Edition",
-  "description": "Do you want Automation? Wireless Transport? Better Machines? A cup o' Coffee? Chests? Better Hoppers? Leaf Blowers? Faster Growth? Plants? Well, Actually Additions V2 Coffee Edition has all that and a lot more!",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "https://github.com/MisterIceCat/ActuallyAdditions-V2-Coffee-Edition",
-  "updateUrl": "",
-  "authorList": [ "Ellpeck, MisterIceCat, ACGaming" ],
-  "credits": "Author: Ellpeck; Textures and Models: BootyToast, GlenthorLP, canitzp Update by MisterIceCat",
-  "logoFile": "assets/actuallyadditions/textures/logo.png",
-  "screenshots": [
-  ],
-  "parent":"",
-  "dependencies": [
-  ]
-}
-]
+[{
+	"modid": "${mod_id}",
+	"name": "${mod_name}",
+	"version": "${mod_version}",
+	"mcversion": "1.12.2",
+	"description": "${mod_description}",
+	"authorList": ["${mod_authors}"],
+	"credits": "${mod_credits}",
+	"url": "${mod_url}",
+	"updateJSON": "${mod_update_json}",
+	"logoFile": "${mod_logo_path}"
+}]

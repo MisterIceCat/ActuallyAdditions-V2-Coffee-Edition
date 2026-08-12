@@ -29,7 +29,7 @@ public class SpecialRenderInit {
     public static final HashMap<String, RenderSpecial> SPECIAL_LIST = new HashMap<>();
 
     public SpecialRenderInit() {
-        new ThreadSpecialFetcher();
+        SpecialPeopleStuff.load();
         MinecraftForge.EVENT_BUS.register(this);
     }
 
